@@ -1,0 +1,1 @@
+# piwigo-subtle-gray

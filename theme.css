@@ -1,0 +1,158 @@
+@import "iconset.css";
+
+body,
+#the_page,
+#content {
+	background-color: #4f4f4f;
+	padding: 0 !important;
+	margin: 0 !important;
+	color: #b0b0b0;
+}
+
+a {
+	color: #b0b0b0;
+}
+
+#theHeader {
+	background-color: #333333;
+	margin: 0 0 0.6em 0;
+	padding: 0.1em;
+	/*color: #b0b0b0;*/
+	box-shadow: 0px 0px 20px #000000;
+	z-index: 2;
+	position: fixed;
+	width: 100vw;
+}
+
+#theHeader h1 {
+	font-size: 2.1em;
+	padding: 0;
+}
+
+#theCategoryPage {
+	font-size: 1em;
+	margin: 0 !important;
+}
+
+#theImage {
+	width: 95vw;
+	height: calc(100vh - 8em);
+	margin: auto;
+
+}
+
+#theMainImage {
+	width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/*#thePicturePage > #the_page > #menubar , */#thePicturePage > #the_page > #theHeader {
+	display: none;
+}
+
+/*#thePicturePage > #the_page > .contentWithMenu {
+	margin-left: 0;
+}*/
+
+/*#imageHeaderBar {
+	height: 30px;
+}*/
+
+#menubar {
+	background-color: #333333;
+	position: fixed;
+	top: 86px;
+	height: 100%;
+	z-index: 3;
+	box-shadow: 0px 10px 10px #000000;
+	margin: 0px 0px -100px 0;
+	padding: 1em;
+	width: 12vw;
+}
+
+.contentWithMenu, 
+#copyright {
+	position: relative;
+	top: 150px;
+	left: 17vw;
+	margin: 0;
+	width: 78vw;
+
+}
+
+.thumbnailCategories li {
+	display: block;
+	width: 23em;
+	height: 23em;
+	margin: 1em;
+	padding: 1em;
+	background-color: #929292;
+	/*box-shadow: 0px 0px 20px #222;*/
+}
+
+.odd, 
+.even {
+	overflow: hidden;
+}
+
+.thumbnailCategory .illustration img {
+	width: 100%;
+	height: 100%;
+}
+
+.thumbnailCategory .illustration {
+	width: 22em !important;
+	height: 22em !important;
+	position: relative;
+	margin: 0 !important;
+}
+
+.thumbnailCategory .description {
+	position: absolute;
+	bottom: 0px;
+	width: calc(100% - 0.8em);
+	height: auto !important;
+	overflow-wrap: break-word;
+	background-color: rgba(40, 40, 40, 0.85);
+	color: #b0b0b0;
+	padding: 0.4em;
+}
+
+.thumbnailCategory .description h3 {
+	font-size: 1.7em;
+	margin-bottom: 0.3em;
+}
+
+.thumbnailCategory .description h3 a,
+.thumbnailCategory .description .text {
+	text-align: center;
+	color: #b0b0b0;
+}
+
+.wrap1 {
+	background-color: #929292;
+	padding: 1em;
+	box-shadow: 0 0 15px #000;
+	margin: 1em !important;
+}
+
+.wrap1 .thumbLegend {
+	color: #000;
+	font-size: 0.9em !important;
+	height: 1.2em !important;
+	padding: 0.2em;
+}
+
+#imageHeaderBar {
+	background-color: #333333;
+	box-shadow: 0px 0px 15px #000000;
+	margin: 0 0 1.2em 0;
+	padding: 0.8em 0 0.8em 0;
+}
+
+.imageNumber {
+	position: relative;
+	top: -1.5em;
+}
+
