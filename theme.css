@@ -13,7 +13,7 @@ body,
 	margin: 0 !important;
 	color: #e6e6e6;
 	font-size: 1em;
-	font-family: droidsans;
+	font-family: droidsans, tahoma, arial;
 }
 
 a {
