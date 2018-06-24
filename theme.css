@@ -20,6 +20,10 @@ a {
 	color: #e6e6e6;
 }
 
+a:hover {
+	border-bottom: 1px solid #e6e6e6;
+}
+
 #theHeader {
 	background-color: #333333;
 	margin: 0 0 0.6em 0;
