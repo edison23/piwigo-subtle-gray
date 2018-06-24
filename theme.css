@@ -101,11 +101,21 @@ input[type=checkbox], input[type=radio] {
 .contentWithMenu, 
 #copyright {
 	position: relative;
-	top: 6.5em;
-	left: 17vw;
 	margin: 0;
-	width: 78vw;
+	top: 6.5em;
+}
 
+.contentWithMenu,
+.contentWithMenu ~ #copyright {
+	left: 17vw;
+	width: 78vw;
+	margin: 4em 0 2em !important;
+}
+
+#copyright {
+	margin: 4em 0 0 0 !important;
+	padding: 1em 0 1em 0 !important;
+	width: 100%;
 }
 
 .thumbnailCategories {
@@ -356,6 +366,10 @@ input[type=checkbox], input[type=radio] {
 	background-color: #6d6d6d;
 	padding: 0.5em;
 	cursor: pointer;
+}
+
+#rateForm input {
+	border: none !important;
 }
 
 @media screen and (max-width: 1600px) {
