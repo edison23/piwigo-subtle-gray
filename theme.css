@@ -59,24 +59,36 @@ a {
 
 input, 
 textarea,
-select {
+select,
+.selectize-input,
+.selectize-dropdown-content {
 	background-color: #929292 !important;
-	border: 1px solid #222222;
+	border: 1px solid #222222 !important;
 	color: #222222 !important;
 	padding: 0.2em;
 	font-size: 1.2em;
 }
 
+input[type=checkbox], input[type=radio] {
+	margin: 0 0.5em 0 0;
+}
+
 #menubar {
 	background-color: #333333;
 	position: fixed;
-	top: 4.5em;
-	height: 100%;
+	top: 4.7em;
+	/*height: 100%;*/
 	z-index: 3;
 	box-shadow: 0px 0.5em 0.5em #000000;
 	margin: 0px 0px -100px 0;
 	padding: 1em;
 	width: 12vw;
+	overflow-y: auto;
+	height: calc(100vh - 5.5em);
+}
+
+#mbIdentification {
+	margin-bottom: 4em !important;
 }
 
 .contentWithMenu, 
@@ -103,6 +115,7 @@ select {
 	margin: 1em;
 	padding: 1em;
 	background-color: #929292;
+	border: 1px solid #222222;
 	/*box-shadow: 0px 0px 20px #222;*/
 }
 
@@ -154,7 +167,7 @@ select {
 .wrap1 {
 	background-color: #929292;
 	padding: 1em;
-	/*box-shadow: 0 0 15px #000;*/
+	/*box-shadow: 0 0 8px #000;*/
 	border: 1px solid #222222;
 	margin: 1em !important;
 }
@@ -173,9 +186,14 @@ select {
 	padding: 0.5em 0;
 }
 
-.imageNumber {
-	position: relative;
-	top: -1.5em;
+#imageToolBar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#imageToolBar .imageNumber {
+    margin: 0 1em 0 1em;
 }
 
 #imageInfos {
@@ -248,11 +266,90 @@ select {
 	padding-left: 1.2em;
 }
 
+#menubar ul, 
+#menubar form, 
+#menubar p {
+	font-size: 1em;
+}
+
+#quickconnect input[type=text],
+#quickconnect input[type=password] {
+	width: 95% !important;
+}
+
+#copyright {
+	margin: 3em 0 0 0;
+	padding: 1em;
+	background-color: #333333;
+}
+
+.imageInfo dt {
+	width: 50%;
+} 
+
+#Metadata h3 {
+	display: block;
+	width: 100%;
+	position: relative;
+	left: 50%;
+	text-align: center;
+	margin: 2em 0 0.5em 0;
+	border-top: 1px solid #868686;
+	padding-top: 0.3em;
+}
+
+.item {
+	background-color: #333333 !important;
+	background-image: none !important;
+	color: #e6e6e6 !important;
+	border-radius: 0px !important;
+	display: inline-block;
+	padding: 0.3em;
+	margin: 0 0.7em 0 0;
+	border: 1px solid #222222 !important;
+	cursor: default;
+}
+
+.item .remove {
+	margin-left: 0.4em;
+	padding: 0 0.3em 0 0.3em;
+	cursor: pointer;
+	border: none !important;
+	background-color: #633333 !important;
+}
+
+.item .remove:hover {
+	background-color: #9c3333 !important;
+}
+
+.item .active {
+	background-color: #0f0e0d !important;
+	border: 1px solid #c47503 !important;
+}
+
+.selectize-input input {
+	border: none !important;
+}
+
+.selectize-dropdown-content {
+	line-height: 1.6em;
+}
+
+.highlight {
+	background-color: #3d942f !important;
+}
+
+.selectize-dropdown-content > .active {
+	background-color: #6d6d6d;
+	padding: 0.5em;
+	cursor: pointer;
+}
+
 @media screen and (max-width: 1600px) {
 	body,
 	#the_page,
 	#content {
-		font-size: 0.8em;
+		font-size: 90%;
 	}
 
 	.contentWithMenu, 
