@@ -1,5 +1,3 @@
-@import "iconset.css"; /* temp */
-
 @font-face {
     font-family: droidsans;
     src: url(font/DroidSans.ttf);
@@ -12,7 +10,7 @@ body,
 	padding: 0 !important;
 	margin: 0 !important;
 	color: #a1a1b1;
-	font-size: 0.95em;
+	font-size: 1em;
 	font-family: droidsans, tahoma, arial;
 }
 
@@ -25,7 +23,7 @@ a:hover {
 }
 
 #theHeader {
-	background-color: #2b2b2b;
+	background-color: #1b1b1b;
 	/*border-bottom: 1px solid #777788;*/
 	margin: 0 0 0.6em 0;
 	padding: 0.1em;
@@ -70,7 +68,7 @@ select,
 	border: 1px solid #777788 !important;
 	color: #a1a1b1 !important;
 	padding: 0.2em;
-	font-size: 100%;
+	font-size: 1.2em;
 }
 
 input[type=checkbox], input[type=radio] {
@@ -88,7 +86,7 @@ legend {
 }
 
 #menubar {
-	background-color: #2b2b2b;
+	background-color: #1b1b1b;
 	/*border-right: 1px solid #777788;*/
 	position: fixed;
 	top: 4.7em;
@@ -176,7 +174,7 @@ legend {
 	height: auto !important;
 	overflow-wrap: break-word;
 	background-color: rgba(40, 40, 40, 0.80);
-	/*color: #222222;*/
+	color: #222222;
 	padding: 0.4em;
 }
 
@@ -189,17 +187,17 @@ legend {
 .thumbnailCategory .description h3 a,
 .thumbnailCategory .description .text {
 	text-align: center;
-	color: #cccccc;
+	color: #a1a1b1;
 }
 
 .thumbnailCategory .description img {
 	width: 16px;
 }
 .wrap1 {
-	/*background-color: #929292;*/
-	/*padding: 1em;*/
+	background-color: #929292;
+	padding: 1em;
 	/*box-shadow: 0 0 8px #000;*/
-	/*border: 1px solid #222222;*/
+	border: 1px solid #222222;
 	margin: 1em !important;
 }
 
@@ -207,9 +205,8 @@ legend {
 	display: inline-block;
 	position: relative;
 	top: -2px;
-	color: #cccccc;
-	overflow-wrap: break-word;
-	/*background-color: rgba(40, 40, 40, 1);*/
+	color: #a1a1b1;
+	background-color: #6d6d6d;
 	font-size: 0.9em !important;
 	width: calc(100% - 2px);
 	height: auto !important;
@@ -218,8 +215,8 @@ legend {
 }
 
 #imageHeaderBar {
-	background-color: #2b2b2b;
-	/*box-shadow: 0px 0px 0.5em #000000;*/
+	background-color: #1b1b1b;
+	box-shadow: 0px 0px 0.5em #000000;
 	margin: 0 0 1.2em 0;
 	padding: 0.5em 0;
 }
@@ -243,8 +240,8 @@ legend {
 	font-size: 1.1em;
 	padding: 0.4em;
 	margin-top: 0;
-	/*color: #222222;*/
-	/*background-color: #929292;*/
+	color: #222222;
+	background-color: #929292;
 }
 
 .waitingForServer {
@@ -391,22 +388,10 @@ legend {
 	body,
 	#the_page,
 	#content {
-		font-size: 94%;
+		font-size: 90%;
 	}
 
 	.contentWithMenu, 
 	#copyright {
-		top: 6.9em;
-}
-
-@media screen and (max-width: 1200px) {
-	body,
-	#the_page,
-	#content {
-		font-size: 88%;
-	}
-
-	.contentWithMenu, 
-	#copyright {
-		top: 7.3em;
+		top: 7em;
 }

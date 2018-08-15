@@ -1,0 +1,137 @@
+body,
+#the_page,
+#content {
+	color: #e6e6e6;
+	background-color: #1b1b1b
+}
+
+a,
+.thumbnailCategory .description h3,
+.thumbnailCategory .description h3 a,
+.thumbnailCategory .description .text,
+input, 
+textarea,
+select,
+.selectize-input,
+.selectize-dropdown-content {
+	color: #e6e6e6 !important;
+}
+
+a:hover {
+	border-bottom: 1px solid #e6e6e6;
+}
+
+#theHeader {
+	background-color: #1b1b1b;
+	border-bottom: 1px solid #777799;
+}
+
+input, 
+textarea,
+select,
+.selectize-input,
+.selectize-dropdown-content {
+	background-color: #272727 !important;
+	border: 1px solid white !important;
+}
+
+#menubar {
+	background-color: #1b1b1b;
+}
+
+#menubar dl,
+#mbSpecials {
+	border-top: 1px solid #868686;
+}
+
+.thumbnailCategories li {
+	background-color: #929292;
+	border: 1px solid #222222;
+}
+
+.thumbnailCategory .description {
+	color: #222222;
+	background-color: rgba(40, 40, 40, 0.85);
+}
+
+.wrap1 {
+	background-color: #929292;
+	border: 1px solid #222222;
+}
+
+.wrap1 .thumbLegend {
+	color: #e6e6e6;
+	background-color: #6d6d6d;
+}
+
+#imageHeaderBar {
+	background-color: #1b1b1b;
+	box-shadow: 0px 0px 0.5em #000000;
+}
+
+.imageComment {
+	color: #222222;
+	background-color: #929292;
+}
+
+.waitingForServer {
+  border: 0.7em solid #f3f3f3;
+  border-top: 0.7em solid #3030a9;
+  border-bottom: 0.7em solid #3030a9;
+}
+
+.switchBox {
+	background-color: #4F4F4F;
+}
+
+#comments {
+	border-top: 1px solid #868686;
+}
+
+.commentElement {
+	border-top: 1px solid #868686;
+}
+
+.imageInfo dt {
+	border-right: 1px solid #868686;
+}
+
+#copyright {
+	background-color: #1b1b1b;
+}
+
+#Metadata h3 {
+	border-top: 1px solid #868686;
+}
+
+.item {
+	background-color: #1b1b1b !important;
+	color: #e6e6e6 !important;
+	border: 1px solid #222222 !important;
+}
+
+.item .remove {
+	background-color: #633333 !important;
+}
+
+.item .remove:hover {
+	background-color: #9c3333 !important;
+}
+
+.item .active {
+	background-color: #0f0e0d !important;
+	border: 1px solid #c47503 !important;
+}
+
+/*.selectize-input input {
+	border: none !important;
+}*/
+
+.highlight {
+	background-color: #3d942f !important;
+}
+
+.selectize-dropdown-content > .active {
+	background-color: #6d6d6d;
+}
+

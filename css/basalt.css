@@ -1,4 +1,4 @@
-@import "iconset.css"; /* temp */
+@import "iconset.css";
 
 @font-face {
     font-family: droidsans;
@@ -8,28 +8,28 @@
 body,
 #the_page,
 #content {
-	background-color: #1b1b1b;
+	background-color: #4f4f4f;
 	padding: 0 !important;
 	margin: 0 !important;
-	color: #a1a1b1;
-	font-size: 0.95em;
+	color: #e6e6e6;
+	font-size: 1em;
 	font-family: droidsans, tahoma, arial;
 }
 
 a {
-	color: #a1a1b1;
+	color: #e6e6e6;
 }
 
 a:hover {
-	border-bottom: 1px solid #a1a1b1;
+	border-bottom: 1px solid #e6e6e6;
 }
 
 #theHeader {
-	background-color: #2b2b2b;
-	/*border-bottom: 1px solid #777788;*/
+	background-color: #333333;
 	margin: 0 0 0.6em 0;
 	padding: 0.1em;
 	height: 4.5em;
+	box-shadow: 0px 0px 0.5em #000000;
 	z-index: 2;
 	position: fixed;
 	width: 100vw;
@@ -66,34 +66,24 @@ textarea,
 select,
 .selectize-input,
 .selectize-dropdown-content {
-	background-color: #080808 !important;
-	border: 1px solid #777788 !important;
-	color: #a1a1b1 !important;
+	background-color: #929292 !important;
+	border: 1px solid #222222 !important;
+	color: #222222 !important;
 	padding: 0.2em;
-	font-size: 100%;
+	font-size: 1.2em;
 }
 
 input[type=checkbox], input[type=radio] {
 	margin: 0 0.5em 0 0;
 }
 
-fieldset {
-	border: none;
-}
-
-legend {
-	font-size: 1.2em;
-	font-style: normal;
-	margin-left: -2%;
-}
-
 #menubar {
-	background-color: #2b2b2b;
-	/*border-right: 1px solid #777788;*/
+	background-color: #333333;
 	position: fixed;
 	top: 4.7em;
 	/*height: 100%;*/
 	z-index: 3;
+	box-shadow: 0px 0.5em 0.5em #000000;
 	margin: 0px 0px -100px 0;
 	padding: 1em;
 	width: 12vw;
@@ -144,9 +134,9 @@ legend {
 	width: auto;
 	height: auto;
 	margin: 1em;
-	/*padding: 1em;*/
-	/*background-color: #929292;*/
-	/*border: 1px solid #222222;*/
+	padding: 1em;
+	background-color: #929292;
+	border: 1px solid #222222;
 	/*box-shadow: 0px 0px 20px #222;*/
 }
 
@@ -175,13 +165,13 @@ legend {
 	width: calc(100% - 0.8em);
 	height: auto !important;
 	overflow-wrap: break-word;
-	background-color: rgba(40, 40, 40, 0.80);
-	/*color: #222222;*/
+	background-color: rgba(40, 40, 40, 0.85);
+	color: #222222;
 	padding: 0.4em;
 }
 
 .thumbnailCategory .description h3 {
-	font-size: 1.2em;
+	font-size: 1.7em;
 	margin-bottom: 0.3em;
 }
 
@@ -189,17 +179,17 @@ legend {
 .thumbnailCategory .description h3 a,
 .thumbnailCategory .description .text {
 	text-align: center;
-	color: #cccccc;
+	color: #e6e6e6;
 }
 
 .thumbnailCategory .description img {
 	width: 16px;
 }
 .wrap1 {
-	/*background-color: #929292;*/
-	/*padding: 1em;*/
+	background-color: #929292;
+	padding: 1em;
 	/*box-shadow: 0 0 8px #000;*/
-	/*border: 1px solid #222222;*/
+	border: 1px solid #222222;
 	margin: 1em !important;
 }
 
@@ -207,9 +197,8 @@ legend {
 	display: inline-block;
 	position: relative;
 	top: -2px;
-	color: #cccccc;
-	overflow-wrap: break-word;
-	/*background-color: rgba(40, 40, 40, 1);*/
+	color: #e6e6e6;
+	background-color: #6d6d6d;
 	font-size: 0.9em !important;
 	width: calc(100% - 2px);
 	height: auto !important;
@@ -218,8 +207,8 @@ legend {
 }
 
 #imageHeaderBar {
-	background-color: #2b2b2b;
-	/*box-shadow: 0px 0px 0.5em #000000;*/
+	background-color: #333333;
+	box-shadow: 0px 0px 0.5em #000000;
 	margin: 0 0 1.2em 0;
 	padding: 0.5em 0;
 }
@@ -243,8 +232,8 @@ legend {
 	font-size: 1.1em;
 	padding: 0.4em;
 	margin-top: 0;
-	/*color: #222222;*/
-	/*background-color: #929292;*/
+	color: #222222;
+	background-color: #929292;
 }
 
 .waitingForServer {
@@ -273,7 +262,7 @@ legend {
 }
 
 .switchBox {
-	background-color: #1B1B1B;
+	background-color: #4F4F4F;
 }
 
 .calItem {
@@ -318,7 +307,7 @@ legend {
 #copyright {
 	margin: 3em 0 0 0;
 	padding: 1em;
-	background-color: #1b1b1b;
+	background-color: #333333;
 }
 
 .imageInfo dt {
@@ -337,9 +326,9 @@ legend {
 }
 
 .item {
-	background-color: #1b1b1b !important;
+	background-color: #333333 !important;
 	background-image: none !important;
-	color: #a1a1b1 !important;
+	color: #e6e6e6 !important;
 	border-radius: 0px !important;
 	display: inline-block;
 	padding: 0.3em;
@@ -391,22 +380,10 @@ legend {
 	body,
 	#the_page,
 	#content {
-		font-size: 94%;
+		font-size: 90%;
 	}
 
 	.contentWithMenu, 
 	#copyright {
-		top: 6.9em;
-}
-
-@media screen and (max-width: 1200px) {
-	body,
-	#the_page,
-	#content {
-		font-size: 88%;
-	}
-
-	.contentWithMenu, 
-	#copyright {
-		top: 7.3em;
+		top: 7em;
 }
